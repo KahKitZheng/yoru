@@ -1,0 +1,21 @@
+{
+    "name": "kyo",
+    "displayName": "Kyo",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.61.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Kyo",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Kyo-color-theme.json"
+            }
+        ]
+    }
+}
