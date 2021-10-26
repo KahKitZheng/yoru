@@ -2,10 +2,169 @@
 	"name": "Kyo",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#263238",
+		// General colors
+		"focusBorder": "#14161F",
+		"selection.background": "#4169e1", // in list i.e. files?
+		"window.activeBorder": "#14161F",
+
+		// Title bar, top of the editor
+		"titleBar.activeBackground": "#14161F",
+		"titleBar.activeForeground": "#7a85a0",
+		"titleBar.inactiveBackground": "#14161F",
+		"titleBar.inactiveForeground": "#5c5c72",
+		
+		// Status bar, bottom of the editor
+		"statusBar.background": "#14161F",
+		"statusBar.foreground": "#505769",
+		"statusBar.noFolderBackground": "#14161F",
+		"statusBar.noFolderForeground": "#505769",
+		"statusBarItem.hoverBackground": "#212433",
+
+		// Editor
+		"editor.background": "#1a1e2b",
 		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"editorCursor.foreground": "#b0d2ff",
+		"editorLineNumber.activeForeground": "#b7dcff",
+		"editorLineNumber.foreground": "#465563",
+		"editor.lineHighlightBorder": "#1a1e2b",
+		"editor.symbolHighlightBackground": "#fff",
+
+		// Editor tabs
+		"editorGroupHeader.tabsBackground": "#23263a",
+		"tab.border": "#23263a",
+		"tab.activeBackground": "#1a1e2b",
+		"tab.inactiveBackground": "#23263a",
+		"tab.inactiveForeground": "#95a2c0",
+		
+		// Editor widgets such as replace and tooltips
+		"editorWidget.background": "#14161F",
+		"editorWidget.border": "#92b4df",
+		"editorSuggestWidget.border": "#14161F",
+		"editorSuggestWidget.foreground": "#a3c3e0",
+		"editorHoverWidget.border": "#3f4353",
+
+		// Peek View
+		"peekViewTitle.background": "#363c5e",
+		"peekViewTitleDescription.foreground": "#cccccc",
+		"peekView.border": "#4d5c6e",
+		"peekViewEditor.background": "#202635",
+		"peekViewEditorGutter.background": "#202635",
+		"peekViewEditor.matchHighlightBackground": "#1762d1", // to-do
+		"peekViewResult.background": "#1a1e2b",
+		"peekViewResult.matchHighlightBackground": "#451b8a", // to-do
+		"peekViewResult.lineForeground": "#81868f", // Preview of the line of code that the result matches with
+		"peekViewResult.selectionBackground": "#495b86",
+		
+		// Sidebar with icons
+		"activityBar.background": "#0f1118",
+		"activityBar.foreground": "#92b4df",
+		"activityBar.inactiveForeground": "#3e4b64", 
+		"activityBarBadge.background": "#a6c4e9",
+		"activityBarBadge.foreground": "#000000",
+		
+		// Sidebar which is toggleable
+		"sideBar.background": "#14161F",
+		"sideBar.foreground": "#7e8aa5",
+		"sideBarTitle.foreground": "#7e8aa5",
+		"sideBarSectionHeader.background": "#14161F",
+		
+		// Lists such as the files tree or command prompt
+		"list.activeSelectionBackground": "#242838",
+		"list.activeSelectionForeground": "#ece475",
+		"list.inactiveSelectionBackground": "#242838",
+		"list.inactiveSelectionForeground": "#d4cd5f",
+		"list.hoverBackground": "#222535",
+		"list.hoverForeground": "#ffffff",
+		"list.errorForeground": "#d67272",
+		"listFilterWidget.background": "#242838",
+		"listFilterWidget.outline": "#4169e1",
+		"listFilterWidget.noMatchesOutline": "#d67272",
+		"list.filterMatchBackground": "#263d83",
+		"tree.indentGuidesStroke": "#2e314d",
+		"list.highlightForeground": "#ffe986",
+
+		// Overview ruler
+		"editorOverviewRuler.border": "#1a1e2b",
+
+		// Links
+		"textLink.foreground": "#896cbe",
+		"textLink.activeForeground": "#896cbe",
+		
+		// Buttons
+		"button.background": "#1e2235",
+		"button.foreground": "#ffffff",
+		"button.hoverBackground": "#2a2f4b",
+
+		// Text input i.e. search tool in activity bar
+		"input.background": "#242838",
+		"input.foreground": "#ffffff",
+		"input.placeholderForeground": "#7e8aa5",
+		"inputValidation.errorBackground": "#963340",
+		"inputValidation.errorForeground": "#dadada",
+		"inputValidation.errorBorder": "#3d1a1f",
+
+		// Dropdown for i.e. terminal, not applicable for mac
+		"dropdown.background": "#242838",
+		"dropdown.foreground": "#ffffff",
+		"dropdown.border": "#4169e1",
+		"dropdown.listBackground": "#242838",
+
+		// Notifications
+		"notificationToast.border": "#202835",
+		"notificationCenter.border": "#1f2835",
+		"notificationCenterHeader.background": "#23263a",
+
+		// Banner i.e. restricted workspaces
+		"banner.background": "#344a7a",
+		"banner.foreground": "#fff",
+		"banner.iconForeground": "#ffd483",
+
+		// Panel
+		"panel.border": "#465563",
+		"panelTitle.activeForeground": "#fff",
+		"panelTitle.inactiveForeground": "#8c99a5",
+
+		// Extensions color
+		"extensionButton.prominentBackground": "#3c4870",
+		"extensionIcon.starForeground": "#f1c83e",
+		
+		"quickInputList.focusForeground": "#fff",
+		
+		// Scrollbar
+		"scrollbarSlider.activeBackground": "#586386",
+		"scrollbarSlider.background": "#3a425c",
+		"scrollbarSlider.hoverBackground": "#4b5472",
+
+		// Git status of files
+		"gitDecoration.ignoredResourceForeground": "#3e4563",
+		"gitDecoration.untrackedResourceForeground": "#5ebe86",
+		"gitDecoration.modifiedResourceForeground": "#e9b76c",
+
+		// Git diff next to line numbers
+		"editorGutter.addedBackground": "#5ebe86",
+		"editorGutter.modifiedBackground": "#e9b76c",
+		"editorGutter.deletedBackground": "#f3495d",
+		"editorGutter.foldingControlForeground": "#fff",
+		
+		// Git diff editor
+		"diffEditor.insertedTextBackground": "#0d3f24",
+		"diffEditor.removedTextBackground": "#3d0a0a",
+		"diffEditor.diagonalFill": "#3a4364", // Diagonal stripes shown if lines are removed
+
+		// Settings
+		"settings.dropdownBackground": "#242838",
+		"settings.dropdownBorder": "#131822",
+		"settings.checkboxBorder": "#6b707a",
+		"settings.focusedRowBackground": "#242838",
+		"settings.rowHoverBackground": "#2c3144",
+		
+		// Welcome page
+		"welcomePage.background": "#1c1f2c",
+		"welcomePage.tileBackground": "#23283d",
+		"welcomePage.tileHoverBackground": "#2b2f44",
+		"welcomePage.progress.background": "#3a3e52",
+		"welcomePage.progress.foreground": "#cfc0eb",
+		"welcomePage.tileShadow": "#000000",
 	},
 	"tokenColors": [
 		{
