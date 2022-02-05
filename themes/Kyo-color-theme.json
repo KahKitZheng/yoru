@@ -15,10 +15,12 @@
 
     // Status bar, bottom of the editor
     "statusBar.background": "#14161f",
-    "statusBar.foreground": "#505769",
+    "statusBar.foreground": "#5e667a",
     "statusBar.noFolderBackground": "#14161f",
-    "statusBar.noFolderForeground": "#505769",
-    "statusBarItem.hoverBackground": "#212433",
+    "statusBar.noFolderForeground": "#5e667a",
+    "statusBarItem.hoverBackground": "#25293a",
+    "statusBarItem.remoteForeground": "#d7d7d7",
+    "statusBarItem.remoteBackground": "#4d5f81",
 
     // Editor
     "editor.background": "#1a1e2b",
@@ -27,7 +29,7 @@
     "editorLineNumber.activeForeground": "#b7dcff",
     "editorLineNumber.foreground": "#465563",
     "editor.lineHighlightBorder": "#1a1e2b",
-    "editor.symbolHighlightBackground": "#fff",
+    "editor.symbolHighlightBackground": "#d7d7d7",
     "editor.selectionBackground": "#2f4461",
     "editor.selectionHighlightBackground": "#2f4461",
     "editor.findMatchBorder": "#d6c73d",
@@ -35,18 +37,19 @@
     "editor.findMatchHighlightBackground": "#3b4d66a8",
 
     // Editor tabs
-    "editorGroupHeader.tabsBackground": "#23263a",
-    "tab.border": "#23263a",
+    "editorGroupHeader.tabsBackground": "#1a1e2b",
+    "tab.border": "#1a1e2b",
     "tab.activeBorder": "#f9ee98",
     "tab.activeBackground": "#1a1e2b",
-    "tab.inactiveBackground": "#23263a",
+    "tab.inactiveBackground": "#1a1e2b",
     "tab.inactiveForeground": "#95a2c0",
 
     // Editor widgets such as replace and tooltips
-    "editorWidget.background": "#14161f",
+    "editorWidget.background": "#2d3146",
     "editorWidget.border": "#92b4df",
     "editorSuggestWidget.border": "#14161f",
     "editorSuggestWidget.foreground": "#a3c3e0",
+    "editorSuggestWidget.background": "#2d3146",
     "editorHoverWidget.border": "#3f4353",
 
     // Peek View
@@ -79,6 +82,7 @@
     "list.activeSelectionForeground": "#ece475",
     "list.inactiveSelectionBackground": "#242838",
     "list.inactiveSelectionForeground": "#d4cd5f",
+    "list.dropBackground": "#2e3247",
     "list.hoverBackground": "#222535",
     "list.hoverForeground": "#ffffff",
     "list.errorForeground": "#d67272",
@@ -86,9 +90,9 @@
     "listFilterWidget.outline": "#4169e1",
     "listFilterWidget.noMatchesOutline": "#d67272",
     "list.filterMatchBackground": "#263d83",
-    "tree.indentGuidesStroke": "#2e314d",
     "list.highlightForeground": "#ffe986",
-    "quickInputTitle.background": "#fff",
+    "tree.indentGuidesStroke": "#4d517c",
+    "quickInputTitle.background": "#d7d7d7",
 
     // Overview ruler
     "editorOverviewRuler.border": "#1a1e2b",
@@ -123,18 +127,18 @@
 
     // Banner i.e. restricted workspaces
     "banner.background": "#344a7a",
-    "banner.foreground": "#fff",
+    "banner.foreground": "#d7d7d7",
     "banner.iconForeground": "#ffd483",
 
     // Panel
     "panel.border": "#465563",
-    "panelTitle.activeForeground": "#fff",
+    "panelTitle.activeForeground": "#d7d7d7",
     "panelTitle.inactiveForeground": "#8c99a5",
 
     // Extensions color
     "extensionButton.prominentBackground": "#3c4870",
     "extensionIcon.starForeground": "#f1c83e",
-    "quickInputList.focusForeground": "#fff",
+    "quickInputList.focusForeground": "#d7d7d7",
 
     // Scrollbar
     "scrollbarSlider.activeBackground": "#586386",
@@ -150,7 +154,7 @@
     "editorGutter.addedBackground": "#5ebe86",
     "editorGutter.modifiedBackground": "#e9b76c",
     "editorGutter.deletedBackground": "#f3495d",
-    "editorGutter.foldingControlForeground": "#fff",
+    "editorGutter.foldingControlForeground": "#d7d7d7",
 
     // Git diff editor
     "diffEditor.insertedTextBackground": "#0d3f24",
@@ -169,7 +173,7 @@
     "welcomePage.tileBackground": "#23283d",
     "welcomePage.tileHoverBackground": "#2b2f44",
     "welcomePage.progress.background": "#3a3e52",
-    "welcomePage.progress.foreground": "#cfc0eb",
+    "welcomePage.progress.foreground": "#f9ee98",
     "welcomePage.tileShadow": "#000000"
   },
   "tokenColors": [
@@ -527,6 +531,7 @@
         "keyword.control.flow.js",
         "keyword.control.module.js",
         "keyword.operator.typeof.js",
+        "keyword.operator.logical.js",
         "keyword.control.conditional.js",
         "keyword.operator.comparison.js",
         "keyword.operator.relational.js",
