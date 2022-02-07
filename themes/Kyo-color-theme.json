@@ -18,9 +18,6 @@
     "statusBar.foreground": "#5e667a",
     "statusBar.noFolderBackground": "#14161f",
     "statusBar.noFolderForeground": "#5e667a",
-    "statusBarItem.hoverBackground": "#25293a",
-    "statusBarItem.remoteForeground": "#d7d7d7",
-    "statusBarItem.remoteBackground": "#4d5f81",
 
     // Editor
     "editor.background": "#1a1e2b",
