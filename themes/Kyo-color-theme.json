@@ -75,15 +75,15 @@
     "sideBarSectionHeader.background": "#14161f",
 
     // Lists such as the files tree or command prompt
-    "list.activeSelectionBackground": "#242838",
+    "list.activeSelectionBackground": "#1a1d27",
     "list.activeSelectionForeground": "#ece475",
-    "list.inactiveSelectionBackground": "#242838",
+    "list.inactiveSelectionBackground": "#1a1d27",
     "list.inactiveSelectionForeground": "#d4cd5f",
     "list.dropBackground": "#2e3247",
     "list.hoverBackground": "#222535",
     "list.hoverForeground": "#ffffff",
     "list.errorForeground": "#d67272",
-    "listFilterWidget.background": "#242838",
+    "listFilterWidget.background": "#1a1d27",
     "listFilterWidget.outline": "#4169e1",
     "listFilterWidget.noMatchesOutline": "#d67272",
     "list.filterMatchBackground": "#263d83",
@@ -104,7 +104,7 @@
     "button.hoverBackground": "#2a2f4b",
 
     // Text input i.e. search tool in activity bar
-    "input.background": "#242838",
+    "input.background": "#1a1d27",
     "input.foreground": "#ffffff",
     "input.placeholderForeground": "#7e8aa5",
     "inputValidation.errorBackground": "#963340",
@@ -112,10 +112,10 @@
     "inputValidation.errorBorder": "#3d1a1f",
 
     // Dropdown for i.e. terminal, not applicable for mac
-    "dropdown.background": "#242838",
+    "dropdown.background": "#1a1d27",
     "dropdown.foreground": "#ffffff",
     "dropdown.border": "#4169e1",
-    "dropdown.listBackground": "#242838",
+    "dropdown.listBackground": "#1a1d27",
 
     // Notifications
     "notificationToast.border": "#202835",
@@ -159,10 +159,10 @@
     "diffEditor.diagonalFill": "#3a4364", // Diagonal stripes shown if lines are removed
 
     // Settings
-    "settings.dropdownBackground": "#242838",
+    "settings.dropdownBackground": "#1a1d27",
     "settings.dropdownBorder": "#131822",
     "settings.checkboxBorder": "#6b707a",
-    "settings.focusedRowBackground": "#242838",
+    "settings.focusedRowBackground": "#1a1d27",
     "settings.rowHoverBackground": "#2c3144",
 
     // Welcome page
@@ -381,7 +381,9 @@
       "scope": [
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
-        "punctuation.definition.tag.jsx"
+        "punctuation.definition.tag.begin.tsx",
+        "punctuation.definition.tag.end.tsx",
+        "punctuation.definition.tag.jsx",
       ],
       "settings": {
         "fontStyle": "",
@@ -439,7 +441,8 @@
         "source.scss support.type.property-name",
         "source.less support.type.property-name",
         "source.stylus support.type.property-name",
-        "source.postcss support.type.property-name"
+        "source.postcss support.type.property-name",
+        "entity.name.tag.css"
       ],
       "settings": {
         "foreground": "#d7d7d7"
