@@ -91,6 +91,9 @@
     "tree.indentGuidesStroke": "#4d517c",
     "quickInputTitle.background": "#d7d7d7",
 
+    // Command Prompt menu
+    "menu.foreground": "#000",
+    
     // Overview ruler
     "editorOverviewRuler.border": "#1a1e2b",
 
