@@ -2,7 +2,7 @@
 
 A dark theme for vs code.
 
-![preview](https://github.com/kahkitzheng/yoru/blob/main/Yoru_preview.jpg?raw=true)
+![preview](https://github.com/kahkitzheng/yoru/blob/main/Yoru_preview.png?raw=true)
 
 ## Installation
 
