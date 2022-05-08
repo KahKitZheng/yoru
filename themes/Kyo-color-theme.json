@@ -556,7 +556,14 @@
     },
     {
       "name": "JS - Variables Object properties",
-      "scope": ["meta.property.object.js"],
+      "scope": [
+        "meta.property.object.js", 
+        "meta.property.object.jsx", 
+        "variable.other.object.ts",
+        "variable.other.object.tsx",
+        "variable.other.constant.ts",
+        "variable.other.constant.tsx",
+      ],
       "settings": {
         "foreground": "#b0c4de"
       }
