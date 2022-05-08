@@ -1,6 +1,6 @@
 # Yoru
 
-A dark theme for vs code.
+A dark theme for vs code. Tested for HTML, CSS, JavaScript and TypeScript.
 
 ![preview](https://github.com/kahkitzheng/yoru/blob/main/Yoru_preview.png?raw=true)
 
