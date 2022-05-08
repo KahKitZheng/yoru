@@ -1,25 +1,26 @@
 {
-    "name": "kyo",
-    "displayName": "Kyo",
-    "description": "",
-    "version": "0.0.1",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/KahKitZheng/kyo"
-      },
-    "engines": {
-        "vscode": "^1.61.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Kyo",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Kyo-color-theme.json"
-            }
-        ]
-    }
+  "name": "yoru",
+  "displayName": "Yoru",
+  "description": "A dark theme for vs code",
+  "icon": "Yoru_icon.png",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KahKitZheng/yoru"
+  },
+  "engines": {
+    "vscode": "^1.61.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Yoru",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Yoru-color-theme.json"
+      }
+    ]
+  }
 }
