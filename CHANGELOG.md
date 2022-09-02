@@ -2,8 +2,10 @@
 
 All notable changes to the "yoru" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## "0.1.1"
 
-## [Unreleased]
+- Fix colors for new Code Action Control released in VS Code August release
 
-- Initial release
+## "0.1.0"
+
+- Add first version of Yoru (dark theme)
