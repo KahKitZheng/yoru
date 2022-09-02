@@ -92,7 +92,9 @@
     "quickInputTitle.background": "#d7d7d7",
 
     // Command Prompt menu
-    "menu.foreground": "#000",
+    "menu.background": "#0f1118",
+    "menu.foreground": "#7e8aa5",
+    "menu.separatorBackground": "#2e3247",
     
     // Overview ruler
     "editorOverviewRuler.border": "#1a1e2b",
