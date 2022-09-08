@@ -89,7 +89,9 @@
     "list.filterMatchBackground": "#263d83",
     "list.highlightForeground": "#ffe986",
     "tree.indentGuidesStroke": "#4d517c",
-    "quickInputTitle.background": "#d7d7d7",
+
+    // Quick widgets such as command palette and customize layout
+    "quickInputTitle.background": "#2e3247",
 
     // Command Prompt menu
     "menu.background": "#0f1118",
