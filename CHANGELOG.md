@@ -2,6 +2,10 @@
 
 All notable changes to the "yoru" extension will be documented in this file.
 
+## "0.1.3"
+
+- Change colors of editor widgets
+
 ## "0.1.2"
 
 - Fix header background color of customize layout widget

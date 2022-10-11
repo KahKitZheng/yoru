@@ -42,12 +42,10 @@
     "tab.inactiveForeground": "#95a2c0",
 
     // Editor widgets such as replace and tooltips
-    "editorWidget.background": "#2d3146",
-    "editorWidget.border": "#92b4df",
-    "editorSuggestWidget.border": "#14161f",
-    "editorSuggestWidget.foreground": "#a3c3e0",
+    "editorWidget.background": "#26293b",
+    "editorSuggestWidget.foreground": "#ccd9ff",
     "editorSuggestWidget.background": "#2d3146",
-    "editorHoverWidget.border": "#3f4353",
+    "editorSuggestWidget.highlightForeground": "#ccd9ff",
 
     // Peek View
     "peekViewTitle.background": "#363c5e",
