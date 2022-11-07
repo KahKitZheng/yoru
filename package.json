@@ -3,7 +3,7 @@
   "displayName": "Yoru",
   "description": "A dark theme for vs code",
   "icon": "Yoru_icon.png",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "publisher": "KahKitZheng",
   "repository": {
     "type": "git",

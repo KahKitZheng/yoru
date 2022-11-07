@@ -20,19 +20,22 @@
     "statusBar.noFolderForeground": "#5e667a",
 
     // Editor
+    "editorCursor.foreground": "#b0d2ff",
     "editor.background": "#1a1e2b",
     "editor.foreground": "#eeffff",
-    "editorCursor.foreground": "#b0d2ff",
-    "editorLineNumber.activeForeground": "#b7dcff",
-    "editorLineNumber.foreground": "#465563",
-    "editor.lineHighlightBorder": "#1a1e2b",
     "editor.symbolHighlightBackground": "#d7d7d7",
     "editor.selectionBackground": "#2f4461",
     "editor.selectionHighlightBackground": "#2f4461",
     "editor.findMatchBorder": "#d6c73d",
     "editor.findMatchBackground": "#3b4d66a8",
     "editor.findMatchHighlightBackground": "#3b4d66a8",
-
+    "editor.lineHighlightBorder": "#23293a",
+    "editor.lineHighlightBackground": "#23293a",
+    "editorLineNumber.activeForeground": "#b7dcff",
+    "editorLineNumber.foreground": "#465563",
+    "editorIndentGuide.background": "#2d2f49",
+    "editorIndentGuide.activeBackground": "#52546e",
+    
     // Editor tabs
     "editorGroupHeader.tabsBackground": "#1a1e2b",
     "tab.border": "#1a1e2b",
@@ -73,20 +76,20 @@
     "sideBarSectionHeader.background": "#14161f",
 
     // Lists such as the files tree or command prompt
-    "list.activeSelectionBackground": "#1a1d27",
-    "list.activeSelectionForeground": "#ece475",
-    "list.inactiveSelectionBackground": "#1a1d27",
-    "list.inactiveSelectionForeground": "#d4cd5f",
+    "list.activeSelectionBackground": "#1a1e2b",
+    "list.activeSelectionForeground": "#dee6fc",
+    "list.inactiveSelectionBackground": "#1a1e2b",
+    "list.inactiveSelectionForeground": "#dee6fc",
     "list.dropBackground": "#2e3247",
     "list.hoverBackground": "#222535",
-    "list.hoverForeground": "#ffffff",
+    "list.hoverForeground": "#dee6fc",
     "list.errorForeground": "#d67272",
     "listFilterWidget.background": "#1a1d27",
     "listFilterWidget.outline": "#4169e1",
     "listFilterWidget.noMatchesOutline": "#d67272",
     "list.filterMatchBackground": "#263d83",
     "list.highlightForeground": "#ffe986",
-    "tree.indentGuidesStroke": "#4d517c",
+    "tree.indentGuidesStroke": "#353756",
 
     // Quick widgets such as command palette and customize layout
     "quickInputTitle.background": "#2e3247",
@@ -179,6 +182,7 @@
     "welcomePage.progress.foreground": "#f9ee98",
     "welcomePage.tileShadow": "#000000"
   },
+  
   "tokenColors": [
     {
       "name": "Comment",
