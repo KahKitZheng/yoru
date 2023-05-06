@@ -88,7 +88,7 @@
     "listFilterWidget.outline": "#4169e1",
     "listFilterWidget.noMatchesOutline": "#d67272",
     "list.filterMatchBackground": "#263d83",
-    "list.highlightForeground": "#ffe986",
+    "list.highlightForeground": "#459bd4",
     "tree.indentGuidesStroke": "#353756",
 
     // Quick widgets such as command palette and customize layout
