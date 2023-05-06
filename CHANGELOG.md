@@ -2,6 +2,15 @@
 
 All notable changes to the "yoru" extension will be documented in this file.
 
+## "0.1.5"
+
+- Adjust the colors of git diff, to make it more readable.
+- Hovering in search file command prompt has the same color as the selected one.
+- Highlighting text in search command prompt is changed from yellow to blue.
+- Hovering an item in search command prompt looks the same as the active one.
+- Make the highlighted text from searching more saturated, increasing the contrast.
+- Active line number is a tiny bit darker.
+
 ## "0.1.4"
 
 - Now highlights the current line by default. If you prefer the previous version, you can disable this by adding `"editor.renderLineHighlight": "none"` to settings.json
