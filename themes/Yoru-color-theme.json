@@ -163,8 +163,10 @@
     "editorGutter.foldingControlForeground": "#d7d7d7",
 
     // Git diff editor
-    "diffEditor.insertedTextBackground": "#0d3f24",
-    "diffEditor.removedTextBackground": "#3d0a0a",
+    "diffEditor.insertedLineBackground": "#1f3834",
+    "diffEditor.insertedTextBackground": "#29433f",
+    "diffEditor.removedLineBackground": "#352232",
+    "diffEditor.removedTextBackground": "#6c2424",
     "diffEditor.diagonalFill": "#3a4364", // Diagonal stripes shown if lines are removed
 
     // Settings
@@ -180,7 +182,6 @@
     "welcomePage.tileHoverBackground": "#2b2f44",
     "welcomePage.progress.background": "#3a3e52",
     "welcomePage.progress.foreground": "#f9ee98",
-    "welcomePage.tileShadow": "#000000"
   },
   
   "tokenColors": [
@@ -189,7 +190,7 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#4e5b68"
+        "foreground": "#4a5661"
       }
     },
     {
