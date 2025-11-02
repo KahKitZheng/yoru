@@ -3,7 +3,7 @@
 const yoruPalette = {
   // Foreground colors
   fg: {
-    default: "#eeffff",
+    default: "#ccd4dcff",
     muted: "#7e8aa5",
     subtle: "#5e667a",
     inactive: "#5c5c72",
@@ -13,10 +13,10 @@ const yoruPalette = {
 
   // Background/Canvas colors
   canvas: {
-    default: "#1a1e2b", // Main editor
-    subtle: "#23293a", // Line highlight
-    inset: "#14161f", // Sidebar, title bar
-    darker: "#0f1118", // Activity bar
+    default: "#181a23", // Main editor
+    subtle: "#243041", // Line highlight.
+    inset: "#14161f", // Sidebar, 
+    darker: "#0f1118", // Activity bar, title bar
     overlay: "#26293b", // Widgets
     input: "#1a1d27", // Input fields
   },
@@ -26,7 +26,6 @@ const yoruPalette = {
     default: "#465563",
     muted: "#2d2f49",
     active: "#52546e",
-    selection: "#2f4461",
   },
 
   // Accent colors (yellow/gold)
@@ -61,7 +60,7 @@ const yoruPalette = {
     emphasis: "#ff5370",
     muted: "#d67272",
     subtle: "#352232",
-    removed: "#6c2424",
+    removed: "#5f283aff",
   },
 
   // Info/primary colors (blue)
@@ -94,16 +93,16 @@ const yoruPalette = {
 
   // Syntax highlighting colors
   syntax: {
-    comment: "#4a5661",
+    comment: "#515e6aff",
     keyword: "#fb7da7",
     storage: "#f9ee98",
     string: "#a6d885",
     number: "#c5a0f0",
     function: "#76c5a4",
-    variable: "#b0c4de",
+    variable: "#b3cae8ff",
     variableBlock: "#76c5a4",
     class: "#fb7da7",
-    operator: "#cda869",
+    operator: "#c8a15dff",
     tag: "#fb7da7",
     attribute: "#4ac2d4",
     regex: "#89ddff",

@@ -26,13 +26,13 @@ function getTheme({ theme, name, type = "dark" }) {
       "window.activeBorder": color.canvas.inset,
 
       // === Title Bar ===
-      "titleBar.activeBackground": color.canvas.inset,
+      "titleBar.activeBackground": color.canvas.darker,
       "titleBar.activeForeground": color.fg.muted,
-      "titleBar.inactiveBackground": color.canvas.inset,
+      "titleBar.inactiveBackground": color.canvas.darker,
       "titleBar.inactiveForeground": color.fg.inactive,
 
       // === Status Bar ===
-      "statusBar.background": color.canvas.inset,
+      "statusBar.background": color.canvas.darker,
       "statusBar.foreground": color.fg.subtle,
       "statusBar.noFolderBackground": color.canvas.inset,
       "statusBar.noFolderForeground": color.fg.subtle,
@@ -42,8 +42,8 @@ function getTheme({ theme, name, type = "dark" }) {
       "editor.background": color.canvas.default,
       "editor.foreground": color.fg.default,
       "editor.symbolHighlightBackground": "#d7d7d7",
-      "editor.selectionBackground": color.border.selection,
-      "editor.selectionHighlightBackground": color.border.selection,
+      "editor.selectionBackground": color.canvas.subtle,
+      "editor.selectionHighlightBackground": color.canvas.subtle,
       "editor.findMatchBorder": color.attention.find,
       "editor.findMatchBackground": color.attention.subtle,
       "editor.findMatchHighlightBackground": "#234475a8",
@@ -51,7 +51,7 @@ function getTheme({ theme, name, type = "dark" }) {
       "editor.lineHighlightBackground": color.canvas.subtle,
 
       // === Editor Line Numbers ===
-      "editorLineNumber.activeForeground": "#9ab9d6",
+      "editorLineNumber.activeForeground": "#4895deff",
       "editorLineNumber.foreground": color.border.default,
 
       // === Editor Indentation Guides ===
@@ -185,8 +185,8 @@ function getTheme({ theme, name, type = "dark" }) {
       "editorGutter.foldingControlForeground": "#d7d7d7",
 
       // === Diff Editor ===
-      "diffEditor.insertedLineBackground": color.success.subtle,
-      "diffEditor.insertedTextBackground": "#29433f",
+      "diffEditor.insertedLineBackground": "#182822ff",
+      "diffEditor.insertedTextBackground": "#1c3f2fff",
       "diffEditor.removedLineBackground": color.danger.subtle,
       "diffEditor.removedTextBackground": color.danger.removed,
       "diffEditor.diagonalFill": "#3a4364",
@@ -366,6 +366,7 @@ function getTheme({ theme, name, type = "dark" }) {
         ],
         settings: {
           foreground: color.syntax.string,
+          fontStyle: "italic",
         },
       },
       {
@@ -568,6 +569,10 @@ function getTheme({ theme, name, type = "dark" }) {
         scope: [
           "meta.property.object.js",
           "meta.property.object.jsx",
+          "meta.property.member.js",
+          "meta.property.member.jsx",
+          "meta.property.member.ts",
+          "meta.property.member.tsx",
           "variable.other.object.ts",
           "variable.other.object.tsx",
           "variable.other.constant.ts",
