@@ -51,7 +51,7 @@ function getTheme({ theme, name, type = "dark" }) {
       "editor.lineHighlightBackground": color.canvas.subtle,
 
       // === Editor Line Numbers ===
-      "editorLineNumber.activeForeground": "#4895deff",
+      "editorLineNumber.activeForeground": "#cce6ffff",
       "editorLineNumber.foreground": color.border.default,
 
       // === Editor Indentation Guides ===
