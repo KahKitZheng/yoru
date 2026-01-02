@@ -1,9 +1,9 @@
 {
   "name": "yoru",
   "displayName": "Yoru",
-  "description": "A dark theme for vs code",
+  "description": "A dark theme for VS Code",
   "icon": "Yoru_icon.png",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "publisher": "KahKitZheng",
   "repository": {
     "type": "git",
@@ -27,5 +27,12 @@
         "path": "./themes/Yoru-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "build": "node src/build.js",
+    "watch": "nodemon --watch src src/build.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
