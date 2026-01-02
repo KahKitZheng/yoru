@@ -2,6 +2,13 @@
 
 All notable changes to the "yoru" extension will be documented in this file.
 
+## "0.1.6"
+
+- Made subtle improvements to the colors.
+- Improve the readability of comments.
+- Adjusted the colors of the diff editor.
+- Adjusted how themes are created now.
+
 ## "0.1.5"
 
 - Adjust the colors of git diff, to make it more readable.
