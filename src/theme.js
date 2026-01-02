@@ -185,8 +185,8 @@ function getTheme({ theme, name, type = "dark" }) {
       "editorGutter.foldingControlForeground": "#d7d7d7",
 
       // === Diff Editor ===
-      "diffEditor.insertedLineBackground": "#182822ff",
-      "diffEditor.insertedTextBackground": "#1c3f2fff",
+      "diffEditor.insertedLineBackground": "#0b203aff",
+      "diffEditor.insertedTextBackground": "#142a46ff",
       "diffEditor.removedLineBackground": color.danger.subtle,
       "diffEditor.removedTextBackground": color.danger.removed,
       "diffEditor.diagonalFill": "#3a4364",

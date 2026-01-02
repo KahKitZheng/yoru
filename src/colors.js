@@ -15,7 +15,7 @@ const yoruPalette = {
   canvas: {
     default: "#181a23", // Main editor
     subtle: "#243041", // Line highlight.
-    inset: "#14161f", // Sidebar, 
+    inset: "#14161f", // Sidebar,
     darker: "#0f1118", // Activity bar, title bar
     overlay: "#26293b", // Widgets
     input: "#1a1d27", // Input fields
@@ -59,8 +59,8 @@ const yoruPalette = {
     fg: "#f3495d",
     emphasis: "#ff5370",
     muted: "#d67272",
-    subtle: "#352232",
-    removed: "#5f283aff",
+    subtle: "#411a27ff",
+    removed: "#532233ff",
   },
 
   // Info/primary colors (blue)
